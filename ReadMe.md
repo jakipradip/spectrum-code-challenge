@@ -2,6 +2,20 @@ ReadMe
 
 This application was build as a coding exercise during interview process
 
+Hosted on AWS EC2 (Will not be available after 2 weeks):
+Some endpoints to try on the hosted applicaiton:
+	1) http://ec2-52-42-93-178.us-west-2.compute.amazonaws.com/release/info
+	2) http://ec2-52-42-93-178.us-west-2.compute.amazonaws.com/release/info/exportCsv
+	3) http://ec2-52-42-93-178.us-west-2.compute.amazonaws.com/release/info?organization=Sandia%20National%20Laboratories%20(SNL)
+	4) http://ec2-52-42-93-178.us-west-2.compute.amazonaws.com/release/info/exportCsv?organization=Sandia%20National%20Laboratories%20(SNL)
+	5) http://ec2-52-42-93-178.us-west-2.compute.amazonaws.com/release/info?releaseCountGreaterThan=400
+	6) http://ec2-52-42-93-178.us-west-2.compute.amazonaws.com/release/info/exportCsv?releaseCountGreaterThan=400
+	7) http://ec2-52-42-93-178.us-west-2.compute.amazonaws.com/release/info?totalLaborHoursGreaterThan=1000
+	8) http://ec2-52-42-93-178.us-west-2.compute.amazonaws.com/release/info/exportCsv?totalLaborHoursGreaterThan=1000
+	9) http://ec2-52-42-93-178.us-west-2.compute.amazonaws.com/release/info?totalLaborHoursGreaterThan=1000&sortBy=releaseCount
+	10) http://ec2-52-42-93-178.us-west-2.compute.amazonaws.com/release/info/exportCsv?totalLaborHoursGreaterThan=1000&sortBy=totalLaborHours
+	11) http://ec2-52-42-93-178.us-west-2.compute.amazonaws.com/release/info?totalLaborHoursGreaterThan=1000&sortBy=releaseCount&sortOrder=asc
+	12) http://ec2-52-42-93-178.us-west-2.compute.amazonaws.com/release/info/exportCsv?totalLaborHoursGreaterThan=1000&sortBy=totalLaborHours&sortOrder=dsc
 
 Requirements:
 1) Java 11 must have been installed in the computer
